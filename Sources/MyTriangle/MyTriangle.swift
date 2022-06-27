@@ -4,6 +4,8 @@ import SwiftUI
 @available(iOS 13.0, *)
 public struct RightPointingTriangle : Shape {
     
+    public init() {}
+    
     public func path(in rect: CGRect) -> Path {
         var path = Path()
         
